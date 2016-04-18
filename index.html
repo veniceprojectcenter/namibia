@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <title>Namibia</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF8">
+    
+    <!-- hide url bar on mobile devices -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable=1,maximum-scale=1,minimal-ui" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="bower_components/angular/angular-csp.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/Materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  </head>
+
+  <body ng-controller="MainController as ctl">
+    <!-- MAP element -->
+    <ng-map
+      id="main_map"
+      zoom="6"
+      center="-20.4515804,16.658771"
+      style="height: 600px; width: 100%">
+      <!-- map-data
+        on-click="ctl.onClick()"
+        load-geo-json="wbcg.json"
+        ></map-data -->
+      <directions
+        draggable="true"
+        panel="directions-panel"
+        travel-mode="DRIVING"
+        origin="{{ctl.origin}}"
+        destination="{{ctl.destination}}">
+      </directions>
+      <!-- directions
+        draggable="true"
+        panel="directions-panel"
+        travel-mode="DRIVING"
+        origin="1135 Karamea-Kohaihai Rd, Kahurangi National Park, Tasman"
+        destination="Pier St, Jackson Bay, West Coast, New Zeland">
+      </directions -->
+    </ng-map>
+    
+    <!-- buttons and modal views -->
+    <a
+      style="position: absolute; top: 0px; right: 0px;"
+      class="btn-floating red btn modal-trigger"
+      href="#modal_path"
+      ng-show="ctl.origin">
+      <i class="material-icons">directions</i>
+    </a>
+    <div id="modal_path" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>Path Details</h4>
+        <div id="directions-panel"></div>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+    <a
+      style="position: absolute; top: 0px; right: 50px;"
+      class="btn-floating red btn modal-trigger"
+      href="#modal_from_to">
+      <i class="material-icons">directions_car</i>
+    </a>
+    <div id="modal_from_to" class="modal modal-fixed-footer">
+      <div class="modal-content">
+        <h4>FROM</h4>
+        <p>Kongola, Regione dello Zambesi, Namibia</p>
+        <h4>TO</h4>
+        <p>Mururani, Regione di Kavango, Namibia</p>
+      </div>
+      <div class="modal-footer">
+        <a class=" modal-action modal-close waves-effect waves-green btn-flat" ng-click="ctl.getDirections()">Go</a>
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+      </div>
+    </div>
+
+    <!-- application components -->
+    <script src="https://maps.google.com/maps/api/js?libraries=placeses,visualization,drawing,geometry,places"></script>    
+    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/bower_components/Materialize/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="/bower_components/ngmap/build/scripts/ng-map.min.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+    <script type="text/javascript" src="/javascripts/mainCtl.js"></script>
+  </body>
+</html>

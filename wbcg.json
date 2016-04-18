@@ -1,0 +1,486 @@
+{
+	"crs": {
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		},
+		"type": "name"
+	},
+	"features": [{
+		"geometry": {
+			"coordinates": [24.246187, -17.477699],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Namibia-Zambia Border post",
+			"type": "border_post",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.269684, -17.496794],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Total Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.270205, -17.503150],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Engen Truck Port",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.266755, -17.510201],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "WBCG Clinic",
+			"type": "health_clinic",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.270049, -17.504060],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Goodyear Tyres",
+			"type": "repair_shop",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.268656, -17.520806],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "1",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [23.404061, -17.823773],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Engine Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [23.345423, -17.791831],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Bwabwata National Park Checkpoint",
+			"type": "checkpoint",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [21.559819, -18.097810],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Bwabwata National Park Checkpoint",
+			"type": "checkpoint",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [21.544342, -18.101365],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Engen Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [19.771345, -17.932098],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Engen Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "1",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [19.771248, -17.931547],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Tren Tyre",
+			"type": "repair_shop",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.928973, -18.793525],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Mururani veternary Gate",
+			"type": "checkpoint",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.110336, -19.560109],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Total Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "1",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.104613, -19.564733],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Dunlop Tyre",
+			"type": "repair_shop",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": "67242626"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.101647, -19.562104],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Grootfontein Police Station",
+			"type": "police_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.102591, -19.566076],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Shell Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [18.101187, -19.566772],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [17.349551, -19.644929],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Total Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [17.349551, -19.644929],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Repair Shop",
+			"type": "repair_shop",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": "814052468"
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [17.148428, -19.867404],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.653386, -20.453958],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Engen Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.655676, -20.454109],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Tyremart",
+			"type": "repair_shop",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.652914, -20.455519],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Total Gas Station",
+			"type": "gas_station",
+			"has_restroom": "1",
+			"has_shower": "0",
+			"has_food": "1",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.650346, -20.458842],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Otjiwarongo Police Station",
+			"type": "police_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.650841, -20.462222],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.650446, -20.464013],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Shell Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.650066, -20.46865],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	} ,{
+        "geometry": {
+			"coordinates": [16.650446, -20.464013],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Shell Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [16.650066, -20.46865],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Puma Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+    },{
+        "geometry": {
+			"coordinates": [16.650446, -20.464013],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Shell Gas Station",
+			"type": "gas_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [24.278345, -17.491311],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Katima Police Station",
+			"type": "police_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+    }, {
+        "geometry": {
+			"coordinates": [19.764292,-17.911091],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Rundu Police Station",
+			"type": "police_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+	}, {
+		"geometry": {
+			"coordinates": [21.350595, -18.003566],
+			"type": "Point"
+		},
+		"properties": {
+			"name": "Divundu Police Station",
+			"type": "police_station",
+			"has_restroom": "0",
+			"has_shower": "0",
+			"has_food": "0",
+			"phone_number": ""
+		},
+		"type": "Feature"
+    }],
+	"type": "FeatureCollection"
+}

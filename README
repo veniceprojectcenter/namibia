@@ -1,0 +1,5 @@
+To start application, simply run
+  python -m SimpleHTTPServer
+The browse to
+  http://localhost:8000/
+

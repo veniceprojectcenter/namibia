@@ -1,0 +1,23 @@
+{
+  "name": "namibiatruck",
+  "version": "0.0.1",
+  "authors": [
+    "Tomaso Minelli <minni@osti.co>",
+    "Formaurbis"
+  ],
+  "description": "....",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "angular": "^1.5.3",
+    "Materialize": "materialize#^0.97.6",
+    "ngmap": "^1.16.7"
+  }
+}
