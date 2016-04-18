@@ -17,7 +17,7 @@ angular.module('app').controller('MainController', function(NgMap, $http, $scope
     cl("Init Map....");
     
     ctl.map = map;
-    $.getJSON('/wbcg.json', function (data) {
+    $.getJSON('wbcg.json', function (data) {
       ctl.features = ctl.map.data.addGeoJson(data);
     });
     // mapSrv.routeMap.setCenter({lat: 45.4362, lng: 12.3346});
